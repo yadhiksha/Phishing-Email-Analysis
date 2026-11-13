@@ -1,0 +1,22 @@
+{
+  "name": "phishing-email-analysis",
+  "version": "1.0.0",
+  "description": "Cybersecurity Internship Project 03 - Phishing Email Analysis, Detection Platform & Awareness Guide",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "generate:report": "python scripts/generate_report.py",
+    "generate:screenshots": "python scripts/generate_screenshots.py"
+  },
+  "keywords": [
+    "cybersecurity",
+    "phishing-analysis",
+    "email-security",
+    "social-engineering",
+    "soc-analyst",
+    "security-awareness"
+  ],
+  "author": "Cybersecurity Analyst Intern",
+  "license": "MIT"
+}
